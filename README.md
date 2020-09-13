@@ -36,7 +36,7 @@ Migrate the application
     
 Run: 
 <p><b>$ php artisan db:seed --class=ImageSeeder</b></p>
-to generate random data
+to generate random data<br>
 
 Run the application
 
@@ -46,5 +46,5 @@ Run the application
 
 127.0.0.1:8000/api/photo?<b>paginate=10</b>&<b>format=xml</b>
 <p>
-<b>Paginate</b> -> how many records to show
+<b>Paginate</b> -> how many records to show<br>
 <b>Format</b> -> XML or JSON</p>
