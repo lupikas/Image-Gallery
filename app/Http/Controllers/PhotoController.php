@@ -51,6 +51,6 @@ class PhotoController extends Controller
         $errorMessage = "Bad data format!";
         return response()->json(compact('errorMessage'));
       }
-}
+     }
     }
 }
