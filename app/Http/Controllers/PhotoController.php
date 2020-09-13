@@ -27,10 +27,7 @@ class PhotoController extends Controller
 
       } else{
 
-    //  $photos = Photo::paginate($dataPaginate)->order_by('name', 'desc')->get();
-
     $photos = DB::table('photos')->orderBy('name')->paginate($dataPaginate);
-
 
       foreach ($photos as $photo){
         $imageInfo [] = [
